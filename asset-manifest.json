@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Treasure-Seeker/static/css/main.87628554.css",
-    "main.js": "/Treasure-Seeker/static/js/main.c0096b25.js",
+    "main.js": "/Treasure-Seeker/static/js/main.ee1151da.js",
     "index.html": "/Treasure-Seeker/index.html",
     "main.87628554.css.map": "/Treasure-Seeker/static/css/main.87628554.css.map",
-    "main.c0096b25.js.map": "/Treasure-Seeker/static/js/main.c0096b25.js.map"
+    "main.ee1151da.js.map": "/Treasure-Seeker/static/js/main.ee1151da.js.map"
   },
   "entrypoints": [
     "static/css/main.87628554.css",
-    "static/js/main.c0096b25.js"
+    "static/js/main.ee1151da.js"
   ]
 }
