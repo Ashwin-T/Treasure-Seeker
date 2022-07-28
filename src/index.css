@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: 'Fredericka the Great' !important;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+.main img{
+  width: 50vw;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  background: black;
+  color: white;
+  position: absolute;
+  top:0;
+}
+
+nav a{
+  margin: 0 1.5vw;
+  font: 1rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+nav img{
+  width: 50px;
+  height: 50px;
+}
+
+.subContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin: 0 10vw;
+}
+h1{
+  margin-top: 0;
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: #999900;
+  margin-bottom: 0;
+}
+h6{
+  margin-top: 1vh;
+}
+p{
+  font-size: 0.5rem;
+  font-weight: normal;
+}
+h3{
+  font-weight: normal;
+  margin: 3vh 0 0 1vh;
+}
+h4{
+  font-weight: normal;
+}
+.startButton{
+  font-family: 'Fredericka the Great' !important;
+  width: 15rem;
+  height: 7vh;
+  background-color: white;
+  font-weight: normal;
+  font-size: 4vh;
+  border-radius: 16px;
+  color: black;
+  border: 3px solid black;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.startButton:hover{
+  transform: scale(1.1);
+}
+
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+}
+.red{
+  color: red;
+  position: absolute;
+  bottom: 1rem;
+}
+.guide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 93vh;
+  width: 100vw;
+}
+
+.guide ol{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.guide li{
+  margin: 2vh 0;
+}
+
+.downloadContainer{
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+}
+
+.downloadContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.downloadItem{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #999900 3px solid !important;
+  color: black !important;
+  padding: 10px;
+  text-align: center;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  margin: 2vh 2vw;
+  cursor: pointer;
+}
+
+.downloadItem:hover{
+  transform: scale(1.1);
+}
+
+.download h1{
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .main{
+    flex-direction: column;
+    justify-content: center;
+  }  
+  .subContainer{
+    width: 100vw;
+    text-align: center;
+  }
+  .main img{
+    width: 100vw;
+  }
+
+}
