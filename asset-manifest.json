@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7127704a.css",
-    "main.js": "/static/js/main.29df373d.js",
-    "static/media/logo.png": "/static/media/logo.1843fbb1ed75afd1e56f.png",
-    "static/media/main.png": "/static/media/main.62c2958b5526c59de89a.png",
-    "index.html": "/index.html",
-    "main.7127704a.css.map": "/static/css/main.7127704a.css.map",
-    "main.29df373d.js.map": "/static/js/main.29df373d.js.map"
+    "main.css": "/Treasure-Seeker/static/css/main.7127704a.css",
+    "main.js": "/Treasure-Seeker/static/js/main.58544b58.js",
+    "static/media/logo.png": "/Treasure-Seeker/static/media/logo.1843fbb1ed75afd1e56f.png",
+    "static/media/main.png": "/Treasure-Seeker/static/media/main.62c2958b5526c59de89a.png",
+    "index.html": "/Treasure-Seeker/index.html",
+    "main.7127704a.css.map": "/Treasure-Seeker/static/css/main.7127704a.css.map",
+    "main.58544b58.js.map": "/Treasure-Seeker/static/js/main.58544b58.js.map"
   },
   "entrypoints": [
     "static/css/main.7127704a.css",
-    "static/js/main.29df373d.js"
+    "static/js/main.58544b58.js"
   ]
 }
